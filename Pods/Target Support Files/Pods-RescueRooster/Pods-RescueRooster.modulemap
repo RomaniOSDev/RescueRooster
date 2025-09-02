@@ -1,0 +1,6 @@
+framework module Pods_RescueRooster {
+  umbrella header "Pods-RescueRooster-umbrella.h"
+
+  export *
+  module * { export * }
+}
