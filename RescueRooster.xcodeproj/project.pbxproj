@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74F7D7A32E68D80E00357870 /* CardMoreInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F7D79F2E68D80E00357870 /* CardMoreInfoView.swift */; };
+		74F7D7A42E68D80E00357870 /* FlipAndLearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F7D7A02E68D80E00357870 /* FlipAndLearView.swift */; };
+		74F7D7A52E68D80E00357870 /* FlipEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F7D7A12E68D80E00357870 /* FlipEnum.swift */; };
 		74FE22452E676D08006BD0A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FE223B2E676D08006BD0A1 /* AppDelegate.swift */; };
 		74FE22462E676D08006BD0A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FE22422E676D08006BD0A1 /* SceneDelegate.swift */; };
 		74FE22482E676D08006BD0A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74FE223C2E676D08006BD0A1 /* Assets.xcassets */; };
@@ -30,6 +33,9 @@
 /* Begin PBXFileReference section */
 		344365A0C3392873CA4D6365 /* Pods_RescueRooster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RescueRooster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C4E427066BF15C678C71549 /* Pods-RescueRooster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RescueRooster.release.xcconfig"; path = "Target Support Files/Pods-RescueRooster/Pods-RescueRooster.release.xcconfig"; sourceTree = "<group>"; };
+		74F7D79F2E68D80E00357870 /* CardMoreInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardMoreInfoView.swift; sourceTree = "<group>"; };
+		74F7D7A02E68D80E00357870 /* FlipAndLearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipAndLearView.swift; sourceTree = "<group>"; };
+		74F7D7A12E68D80E00357870 /* FlipEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipEnum.swift; sourceTree = "<group>"; };
 		74FE22232E676CE1006BD0A1 /* RescueRooster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RescueRooster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74FE223B2E676D08006BD0A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74FE223C2E676D08006BD0A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,10 +59,6 @@
 		8F0A54A9BC423EDF5807E0C9 /* Pods-RescueRooster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RescueRooster.debug.xcconfig"; path = "Target Support Files/Pods-RescueRooster/Pods-RescueRooster.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		74FE22762E678267006BD0A1 /* FlipAndLearn */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = FlipAndLearn; sourceTree = "<group>"; };
-/* End PBXFileSystemSynchronizedRootGroup section */
-
 /* Begin PBXFrameworksBuildPhase section */
 		74FE22202E676CE1006BD0A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
@@ -68,6 +70,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		74F7D7A22E68D80E00357870 /* FlipAndLearn */ = {
+			isa = PBXGroup;
+			children = (
+				74F7D79F2E68D80E00357870 /* CardMoreInfoView.swift */,
+				74F7D7A02E68D80E00357870 /* FlipAndLearView.swift */,
+				74F7D7A12E68D80E00357870 /* FlipEnum.swift */,
+			);
+			path = FlipAndLearn;
+			sourceTree = "<group>";
+		};
+		74F7D7A62E68D82600357870 /* Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				74FE22722E67812F006BD0A1 /* QuizView.swift */,
+			);
+			path = Quiz;
+			sourceTree = "<group>";
+		};
 		74FE221A2E676CE1006BD0A1 = {
 			isa = PBXGroup;
 			children = (
@@ -135,10 +155,10 @@
 		74FE22532E677482006BD0A1 /* Games */ = {
 			isa = PBXGroup;
 			children = (
-				74FE22762E678267006BD0A1 /* FlipAndLearn */,
+				74F7D7A22E68D80E00357870 /* FlipAndLearn */,
 				74FE22542E677498006BD0A1 /* GamesView.swift */,
 				74FE226E2E678107006BD0A1 /* RewardsView.swift */,
-				74FE22722E67812F006BD0A1 /* QuizView.swift */,
+				74F7D7A62E68D82600357870 /* Quiz */,
 				74FE22742E67815E006BD0A1 /* RescoreboosterView.swift */,
 			);
 			path = Games;
@@ -209,9 +229,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				74FE22762E678267006BD0A1 /* FlipAndLearn */,
 			);
 			name = RescueRooster;
 			productName = RescueRooster;
@@ -305,6 +322,9 @@
 				74FE22462E676D08006BD0A1 /* SceneDelegate.swift in Sources */,
 				74FE226D2E677CEB006BD0A1 /* NewsModels.swift in Sources */,
 				74FE22582E6774C1006BD0A1 /* InfoView.swift in Sources */,
+				74F7D7A32E68D80E00357870 /* CardMoreInfoView.swift in Sources */,
+				74F7D7A42E68D80E00357870 /* FlipAndLearView.swift in Sources */,
+				74F7D7A52E68D80E00357870 /* FlipEnum.swift in Sources */,
 				74FE22622E677B19006BD0A1 /* NewsDetailView.swift in Sources */,
 				74FE22632E677B19006BD0A1 /* NewsArticleRow.swift in Sources */,
 				74FE224F2E676D6C006BD0A1 /* ContentView.swift in Sources */,

@@ -9,11 +9,26 @@ import SwiftUI
 
 struct FlipAndLearView: View {
     var body: some View {
-        ZStack {
-            Image(.fireBack)
-                .resizable()
-                .ignoresSafeArea()
-            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            ZStack {
+                Image(.fireBack)
+                    .resizable()
+                    .ignoresSafeArea()
+                ScrollView {
+                    LazyVGrid(columns: [GridItem(), GridItem()]) {
+                        ForEach(FlipLearn.allCases, id: \.self) { card in
+                            NavigationLink {
+                                CardMoreInfoView(card: card)
+                            } label: {
+                                Image(card.icon)
+                                    .resizable()
+                                    .aspectRatio(contentMode: .fit)
+                            }
+                        }
+                    }.padding()
+                        .padding(.horizontal, 30)
+                }
+            }
         }
     }
 }

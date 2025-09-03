@@ -54,7 +54,7 @@ struct ContentView: View {
             }
             .padding(.horizontal)
             .padding()
-            .background(Color.white.opacity(0.7))
+            .background(Color.white.opacity(0.6))
             .shadow(color: .black.opacity(0.1), radius: 2, x: 0, y: -2)
         }
         .ignoresSafeArea(edges: .bottom)
