@@ -10,6 +10,10 @@
 		74F7D7A32E68D80E00357870 /* CardMoreInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F7D79F2E68D80E00357870 /* CardMoreInfoView.swift */; };
 		74F7D7A42E68D80E00357870 /* FlipAndLearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F7D7A02E68D80E00357870 /* FlipAndLearView.swift */; };
 		74F7D7A52E68D80E00357870 /* FlipEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F7D7A12E68D80E00357870 /* FlipEnum.swift */; };
+		74F7D7A82E68D9ED00357870 /* QuizModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F7D7A72E68D9ED00357870 /* QuizModels.swift */; };
+		74F7D7AB2E68DA1900357870 /* QuizResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F7D7AA2E68DA1900357870 /* QuizResultView.swift */; };
+		74F7D7AC2E68DA1900357870 /* QuizGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F7D7A92E68DA1900357870 /* QuizGameView.swift */; };
+		74F7D7AE2E68DA3000357870 /* QuizService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F7D7AD2E68DA3000357870 /* QuizService.swift */; };
 		74FE22452E676D08006BD0A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FE223B2E676D08006BD0A1 /* AppDelegate.swift */; };
 		74FE22462E676D08006BD0A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FE22422E676D08006BD0A1 /* SceneDelegate.swift */; };
 		74FE22482E676D08006BD0A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74FE223C2E676D08006BD0A1 /* Assets.xcassets */; };
@@ -36,6 +40,10 @@
 		74F7D79F2E68D80E00357870 /* CardMoreInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardMoreInfoView.swift; sourceTree = "<group>"; };
 		74F7D7A02E68D80E00357870 /* FlipAndLearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipAndLearView.swift; sourceTree = "<group>"; };
 		74F7D7A12E68D80E00357870 /* FlipEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipEnum.swift; sourceTree = "<group>"; };
+		74F7D7A72E68D9ED00357870 /* QuizModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizModels.swift; sourceTree = "<group>"; };
+		74F7D7A92E68DA1900357870 /* QuizGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizGameView.swift; sourceTree = "<group>"; };
+		74F7D7AA2E68DA1900357870 /* QuizResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizResultView.swift; sourceTree = "<group>"; };
+		74F7D7AD2E68DA3000357870 /* QuizService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizService.swift; sourceTree = "<group>"; };
 		74FE22232E676CE1006BD0A1 /* RescueRooster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RescueRooster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74FE223B2E676D08006BD0A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74FE223C2E676D08006BD0A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -84,6 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				74FE22722E67812F006BD0A1 /* QuizView.swift */,
+				74F7D7A92E68DA1900357870 /* QuizGameView.swift */,
+				74F7D7AA2E68DA1900357870 /* QuizResultView.swift */,
 			);
 			path = Quiz;
 			sourceTree = "<group>";
@@ -185,6 +195,7 @@
 			children = (
 				74FE22662E677CE2006BD0A1 /* KeychainService.swift */,
 				74FE22672E677CE2006BD0A1 /* NewsService.swift */,
+				74F7D7AD2E68DA3000357870 /* QuizService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -193,6 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				74FE226B2E677CEB006BD0A1 /* NewsModels.swift */,
+				74F7D7A72E68D9ED00357870 /* QuizModels.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -315,8 +327,12 @@
 				74FE22452E676D08006BD0A1 /* AppDelegate.swift in Sources */,
 				74FE22732E67812F006BD0A1 /* QuizView.swift in Sources */,
 				74FE22522E676E17006BD0A1 /* NewsForFireView.swift in Sources */,
+				74F7D7AE2E68DA3000357870 /* QuizService.swift in Sources */,
 				74FE22692E677CE2006BD0A1 /* NewsService.swift in Sources */,
+				74F7D7AB2E68DA1900357870 /* QuizResultView.swift in Sources */,
+				74F7D7AC2E68DA1900357870 /* QuizGameView.swift in Sources */,
 				74FE226A2E677CE2006BD0A1 /* KeychainService.swift in Sources */,
+				74F7D7A82E68D9ED00357870 /* QuizModels.swift in Sources */,
 				74FE22552E677498006BD0A1 /* GamesView.swift in Sources */,
 				74FE225B2E6774DF006BD0A1 /* SettingView.swift in Sources */,
 				74FE22462E676D08006BD0A1 /* SceneDelegate.swift in Sources */,
