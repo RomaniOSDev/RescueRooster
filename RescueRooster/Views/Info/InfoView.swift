@@ -9,7 +9,19 @@ import SwiftUI
 
 struct InfoView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Image(.fireBack)
+                .resizable()
+                .ignoresSafeArea()
+            VStack{
+
+                Image(.infoLabel)
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+            }
+            .padding()
+        }
+        .navigationBarBackButtonHidden()
     }
 }
 

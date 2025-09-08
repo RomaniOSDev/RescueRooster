@@ -151,3 +151,4 @@ struct ResultRow: View {
     
     QuizResultView(quizService: QuizService(), level: .easy)
 }
+

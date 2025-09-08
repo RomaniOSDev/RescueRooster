@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		748F516B2E6F63460003E143 /* RescoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F516A2E6F633E0003E143 /* RescoreViewModel.swift */; };
+		748F516D2E6F63C20003E143 /* FireEntryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F516C2E6F63B90003E143 /* FireEntryModel.swift */; };
+		748F516F2E6F6D320003E143 /* ScoreRescoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F516E2E6F6D320003E143 /* ScoreRescoreView.swift */; };
+		748F51712E6F6F8C0003E143 /* TimeDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F51702E6F6F8C0003E143 /* TimeDisplayView.swift */; };
+		748F51732E6F71490003E143 /* RewardsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F51722E6F71490003E143 /* RewardsService.swift */; };
+		748F51752E6F715C0003E143 /* RewardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F51742E6F715C0003E143 /* RewardModel.swift */; };
 		74F7D7A32E68D80E00357870 /* CardMoreInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F7D79F2E68D80E00357870 /* CardMoreInfoView.swift */; };
 		74F7D7A42E68D80E00357870 /* FlipAndLearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F7D7A02E68D80E00357870 /* FlipAndLearView.swift */; };
 		74F7D7A52E68D80E00357870 /* FlipEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F7D7A12E68D80E00357870 /* FlipEnum.swift */; };
@@ -37,6 +43,12 @@
 /* Begin PBXFileReference section */
 		344365A0C3392873CA4D6365 /* Pods_RescueRooster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RescueRooster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C4E427066BF15C678C71549 /* Pods-RescueRooster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RescueRooster.release.xcconfig"; path = "Target Support Files/Pods-RescueRooster/Pods-RescueRooster.release.xcconfig"; sourceTree = "<group>"; };
+		748F516A2E6F633E0003E143 /* RescoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RescoreViewModel.swift; sourceTree = "<group>"; };
+		748F516C2E6F63B90003E143 /* FireEntryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireEntryModel.swift; sourceTree = "<group>"; };
+		748F516E2E6F6D320003E143 /* ScoreRescoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreRescoreView.swift; sourceTree = "<group>"; };
+		748F51702E6F6F8C0003E143 /* TimeDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeDisplayView.swift; sourceTree = "<group>"; };
+		748F51722E6F71490003E143 /* RewardsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsService.swift; sourceTree = "<group>"; };
+		748F51742E6F715C0003E143 /* RewardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardModel.swift; sourceTree = "<group>"; };
 		74F7D79F2E68D80E00357870 /* CardMoreInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardMoreInfoView.swift; sourceTree = "<group>"; };
 		74F7D7A02E68D80E00357870 /* FlipAndLearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipAndLearView.swift; sourceTree = "<group>"; };
 		74F7D7A12E68D80E00357870 /* FlipEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipEnum.swift; sourceTree = "<group>"; };
@@ -78,6 +90,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		748F51692E6F63140003E143 /* RescoreBooster */ = {
+			isa = PBXGroup;
+			children = (
+				748F516A2E6F633E0003E143 /* RescoreViewModel.swift */,
+				74FE22742E67815E006BD0A1 /* RescoreboosterView.swift */,
+				748F516E2E6F6D320003E143 /* ScoreRescoreView.swift */,
+				748F51702E6F6F8C0003E143 /* TimeDisplayView.swift */,
+			);
+			path = RescoreBooster;
+			sourceTree = "<group>";
+		};
 		74F7D7A22E68D80E00357870 /* FlipAndLearn */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,11 +188,11 @@
 		74FE22532E677482006BD0A1 /* Games */ = {
 			isa = PBXGroup;
 			children = (
+				748F51692E6F63140003E143 /* RescoreBooster */,
 				74F7D7A22E68D80E00357870 /* FlipAndLearn */,
 				74FE22542E677498006BD0A1 /* GamesView.swift */,
 				74FE226E2E678107006BD0A1 /* RewardsView.swift */,
 				74F7D7A62E68D82600357870 /* Quiz */,
-				74FE22742E67815E006BD0A1 /* RescoreboosterView.swift */,
 			);
 			path = Games;
 			sourceTree = "<group>";
@@ -196,6 +219,7 @@
 				74FE22662E677CE2006BD0A1 /* KeychainService.swift */,
 				74FE22672E677CE2006BD0A1 /* NewsService.swift */,
 				74F7D7AD2E68DA3000357870 /* QuizService.swift */,
+				748F51722E6F71490003E143 /* RewardsService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -203,8 +227,10 @@
 		74FE226C2E677CEB006BD0A1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				748F516C2E6F63B90003E143 /* FireEntryModel.swift */,
 				74FE226B2E677CEB006BD0A1 /* NewsModels.swift */,
 				74F7D7A72E68D9ED00357870 /* QuizModels.swift */,
+				748F51742E6F715C0003E143 /* RewardModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -325,10 +351,15 @@
 			files = (
 				74FE22752E67815E006BD0A1 /* RescoreboosterView.swift in Sources */,
 				74FE22452E676D08006BD0A1 /* AppDelegate.swift in Sources */,
+				748F51752E6F715C0003E143 /* RewardModel.swift in Sources */,
+				748F51712E6F6F8C0003E143 /* TimeDisplayView.swift in Sources */,
+				748F516B2E6F63460003E143 /* RescoreViewModel.swift in Sources */,
 				74FE22732E67812F006BD0A1 /* QuizView.swift in Sources */,
+				748F516F2E6F6D320003E143 /* ScoreRescoreView.swift in Sources */,
 				74FE22522E676E17006BD0A1 /* NewsForFireView.swift in Sources */,
 				74F7D7AE2E68DA3000357870 /* QuizService.swift in Sources */,
 				74FE22692E677CE2006BD0A1 /* NewsService.swift in Sources */,
+				748F51732E6F71490003E143 /* RewardsService.swift in Sources */,
 				74F7D7AB2E68DA1900357870 /* QuizResultView.swift in Sources */,
 				74F7D7AC2E68DA1900357870 /* QuizGameView.swift in Sources */,
 				74FE226A2E677CE2006BD0A1 /* KeychainService.swift in Sources */,
@@ -338,6 +369,7 @@
 				74FE22462E676D08006BD0A1 /* SceneDelegate.swift in Sources */,
 				74FE226D2E677CEB006BD0A1 /* NewsModels.swift in Sources */,
 				74FE22582E6774C1006BD0A1 /* InfoView.swift in Sources */,
+				748F516D2E6F63C20003E143 /* FireEntryModel.swift in Sources */,
 				74F7D7A32E68D80E00357870 /* CardMoreInfoView.swift in Sources */,
 				74F7D7A42E68D80E00357870 /* FlipAndLearView.swift in Sources */,
 				74F7D7A52E68D80E00357870 /* FlipEnum.swift in Sources */,
