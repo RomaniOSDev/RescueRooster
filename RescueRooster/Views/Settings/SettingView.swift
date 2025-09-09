@@ -17,7 +17,7 @@ struct SettingView: View {
             VStack {
                 
                 Button {
-                    if let url = URL(string: "https://www.youtube.com/watch?v=dQw4w9WgXcQ") {
+                    if let url = URL(string: "https://www.termsfeed.com/live/7955fb12-36e2-4c06-97b4-d1a27051cd66") {
                         UIApplication.shared.open(url)
                     }
                 } label: {

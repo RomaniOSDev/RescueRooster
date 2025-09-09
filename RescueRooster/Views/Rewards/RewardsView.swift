@@ -166,3 +166,4 @@ struct RewardCard: View {
 #Preview {
     RewardsView()
 }
+

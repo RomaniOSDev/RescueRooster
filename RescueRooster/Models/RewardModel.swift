@@ -170,3 +170,4 @@ struct RewardModel: Identifiable {
         self.unlockedAt = unlockedAt
     }
 }
+
