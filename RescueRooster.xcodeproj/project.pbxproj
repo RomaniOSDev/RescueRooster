@@ -18,6 +18,9 @@
 		748F51712E6F6F8C0003E143 /* TimeDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F51702E6F6F8C0003E143 /* TimeDisplayView.swift */; };
 		748F51732E6F71490003E143 /* RewardsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F51722E6F71490003E143 /* RewardsService.swift */; };
 		748F51752E6F715C0003E143 /* RewardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F51742E6F715C0003E143 /* RewardModel.swift */; };
+		74A987082E7D65DB00FE317A /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A987052E7D65DB00FE317A /* InternetViewController.swift */; };
+		74A987092E7D65DB00FE317A /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A987062E7D65DB00FE317A /* LoaderViewController.swift */; };
+		74A9870A2E7D65DB00FE317A /* CheckLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A987042E7D65DB00FE317A /* CheckLink.swift */; };
 		74F7D7A32E68D80E00357870 /* CardMoreInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F7D79F2E68D80E00357870 /* CardMoreInfoView.swift */; };
 		74F7D7A42E68D80E00357870 /* FlipAndLearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F7D7A02E68D80E00357870 /* FlipAndLearView.swift */; };
 		74F7D7A52E68D80E00357870 /* FlipEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F7D7A12E68D80E00357870 /* FlipEnum.swift */; };
@@ -55,6 +58,9 @@
 		748F51702E6F6F8C0003E143 /* TimeDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeDisplayView.swift; sourceTree = "<group>"; };
 		748F51722E6F71490003E143 /* RewardsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsService.swift; sourceTree = "<group>"; };
 		748F51742E6F715C0003E143 /* RewardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardModel.swift; sourceTree = "<group>"; };
+		74A987042E7D65DB00FE317A /* CheckLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLink.swift; sourceTree = "<group>"; };
+		74A987052E7D65DB00FE317A /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
+		74A987062E7D65DB00FE317A /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
 		74F7D79F2E68D80E00357870 /* CardMoreInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardMoreInfoView.swift; sourceTree = "<group>"; };
 		74F7D7A02E68D80E00357870 /* FlipAndLearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipAndLearView.swift; sourceTree = "<group>"; };
 		74F7D7A12E68D80E00357870 /* FlipEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipEnum.swift; sourceTree = "<group>"; };
@@ -110,6 +116,16 @@
 				748F51702E6F6F8C0003E143 /* TimeDisplayView.swift */,
 			);
 			path = RescoreBooster;
+			sourceTree = "<group>";
+		};
+		74A987072E7D65DB00FE317A /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				74A987042E7D65DB00FE317A /* CheckLink.swift */,
+				74A987052E7D65DB00FE317A /* InternetViewController.swift */,
+				74A987062E7D65DB00FE317A /* LoaderViewController.swift */,
+			);
+			path = LoadingView;
 			sourceTree = "<group>";
 		};
 		74F7D7A22E68D80E00357870 /* FlipAndLearn */ = {
@@ -175,6 +191,7 @@
 				74FE22532E677482006BD0A1 /* Games */,
 				74FE22502E676E05006BD0A1 /* News */,
 				74FE224D2E676D43006BD0A1 /* Main */,
+				74A987072E7D65DB00FE317A /* LoadingView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -383,6 +400,9 @@
 				74FE22552E677498006BD0A1 /* GamesView.swift in Sources */,
 				74FE225B2E6774DF006BD0A1 /* SettingView.swift in Sources */,
 				74FE22462E676D08006BD0A1 /* SceneDelegate.swift in Sources */,
+				74A987082E7D65DB00FE317A /* InternetViewController.swift in Sources */,
+				74A987092E7D65DB00FE317A /* LoaderViewController.swift in Sources */,
+				74A9870A2E7D65DB00FE317A /* CheckLink.swift in Sources */,
 				74FE226D2E677CEB006BD0A1 /* NewsModels.swift in Sources */,
 				74FE22582E6774C1006BD0A1 /* InfoView.swift in Sources */,
 				748F516D2E6F63C20003E143 /* FireEntryModel.swift in Sources */,
@@ -440,7 +460,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dam.r3scu3r00st5r;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -475,7 +495,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dam.r3scu3r00st5r;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";

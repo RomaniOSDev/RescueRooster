@@ -29,6 +29,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //MARK: - One signal
         OneSignal.initialize("a19d014d-16f2-4b46-8d71-98f48e207335", withLaunchOptions: nil)
         OneSignal.login(appsFlyerId)
+        
         return true
     }
 
